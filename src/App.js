@@ -7,8 +7,15 @@ import "./styles.css";
 // import InputFunc from "./hooks/useState/useStateFunc2";
 
 // useEffect
-import UseEffectClass from "./hooks/useEffect/useEffectClass";
-import UseEffectFun from "./hooks/useEffect/useEffectFun";
+// import UseEffectClass from "./hooks/useEffect/useEffectClass";
+// import UseEffectFun from "./hooks/useEffect/useEffectFun";
+// import TimerClass from "./hooks/useEffect/TimersClass";
+// import TimerFun from "./hooks/useEffect/TimerFun";
+// import ShowUser from "./hooks/useEffect/showUsers";
+
+// useRef
+import UseRefClass from "./hooks/useRef/useRefClass";
+import UseRefFun from "./hooks/useRef/useRefFun";
 
 export default function App() {
   return (
@@ -20,8 +27,15 @@ export default function App() {
       <InputFunc /> */}
 
       {/* useEffect */}
-      <UseEffectClass />
-      <UseEffectFun />
+      {/* <UseEffectClass /> */}
+      {/* <UseEffectFun /> */}
+      {/* <TimerClass /> */}
+      {/* <TimerFun /> */}
+      {/* <ShowUser /> */}
+
+      {/* useRef */}
+      <UseRefClass />
+      <UseRefFun />
     </div>
   );
 }
