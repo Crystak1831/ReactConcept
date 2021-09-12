@@ -14,8 +14,8 @@ import "./styles.css";
 // import ShowUser from "./hooks/useEffect/showUsers";
 
 // useRef
-import UseRefClass from "./hooks/useRef/useRefClass";
-import UseRefFun from "./hooks/useRef/useRefFun";
+// import UseRefClass from "./hooks/useRef/useRefClass";
+// import UseRefFun from "./hooks/useRef/useRefFun";
 
 export default function App() {
   return (
@@ -34,8 +34,8 @@ export default function App() {
       {/* <ShowUser /> */}
 
       {/* useRef */}
-      <UseRefClass />
-      <UseRefFun />
+      {/* <UseRefClass /> */}
+      {/* <UseRefFun /> */}
     </div>
   );
 }
