@@ -10,9 +10,9 @@ export default function UseEffectFun() {
   // });
 
   // 2nd parameter is [], like componentDidmount,only render one time
-  useEffect(() => {
-    console.log("only render one time");
-  }, []);
+  // useEffect(() => {
+  //   console.log("only render one time");
+  // }, []);
 
   //useEffect 2nd para has some value，ex:只有count里的值变了，才可以call useEffect里面的 function
   // ---like: shouldcomponentUpdate
@@ -21,7 +21,7 @@ export default function UseEffectFun() {
   //   document.title = `clicked ${count} times`;
   // }, [count]);
 
-  // 要是count给一个固定的数，count became就不会发生变化
+  // 要是count给一个固定的数，count became也就不会发生变化
   useEffect(() => {
     console.log(`count became ${count}`);
     document.title = `clicked ${count} times`;

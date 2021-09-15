@@ -17,6 +17,9 @@ import "./styles.css";
 // import UseRefClass from "./hooks/useRef/useRefClass";
 // import UseRefFun from "./hooks/useRef/useRefFun";
 
+// useMemo
+import Memo from "./hooks/useMemo/Memo";
+
 export default function App() {
   return (
     <div className="App">
@@ -36,6 +39,9 @@ export default function App() {
       {/* useRef */}
       {/* <UseRefClass /> */}
       {/* <UseRefFun /> */}
+
+      {/* Memo */}
+      <Memo />
     </div>
   );
 }
