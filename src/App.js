@@ -18,7 +18,10 @@ import "./styles.css";
 // import UseRefFun from "./hooks/useRef/useRefFun";
 
 // useMemo
-import Memo from "./hooks/useMemo/Memo";
+// import Memo from "./hooks/useMemo/Memo";
+
+// useCallback
+import UseCallbackDemo from "./hooks/useCallback/useCallback";
 
 export default function App() {
   return (
@@ -41,7 +44,10 @@ export default function App() {
       {/* <UseRefFun /> */}
 
       {/* Memo */}
-      <Memo />
+      {/* <Memo /> */}
+
+      {/* useCallback */}
+      <UseCallbackDemo />
     </div>
   );
 }
