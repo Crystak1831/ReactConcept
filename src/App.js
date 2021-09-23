@@ -21,7 +21,10 @@ import "./styles.css";
 // import Memo from "./hooks/useMemo/Memo";
 
 // useCallback
-import UseCallbackDemo from "./hooks/useCallback/useCallback";
+// import UseCallbackDemo from "./hooks/useCallback/useCallback";
+
+// useReducer
+import UseReducerDemo from "./hooks/useReducer/useReducerDemo";
 
 export default function App() {
   return (
@@ -47,7 +50,10 @@ export default function App() {
       {/* <Memo /> */}
 
       {/* useCallback */}
-      <UseCallbackDemo />
+      {/* <UseCallbackDemo /> */}
+
+      {/* useReducer*/}
+      <UseReducerDemo />
     </div>
   );
 }
