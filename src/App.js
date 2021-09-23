@@ -24,7 +24,11 @@ import "./styles.css";
 // import UseCallbackDemo from "./hooks/useCallback/useCallback";
 
 // useReducer
-import UseReducerDemo from "./hooks/useReducer/useReducerDemo";
+// import UseReducerDemo from "./hooks/useReducer/useReducerDemo";
+
+//useContext:
+import UseContexDemo from "./hooks/context/useContext/useContextDemo";
+import UseContextDemo from "./hooks/context/useContext/useContextDemo";
 
 export default function App() {
   return (
@@ -53,7 +57,10 @@ export default function App() {
       {/* <UseCallbackDemo /> */}
 
       {/* useReducer*/}
-      <UseReducerDemo />
+      {/* <UseReducerDemo /> */}
+
+      {/* useContext */}
+      <UseContextDemo />
     </div>
   );
 }
